@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation club form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+    <img class="logo" src= "logo.png" alt="Aviation club logo">
+    <h1 class ="form-title">Aviation club</h1>
+    <form action="" method="post">
+        <div class="userinformation">
+            <div class ="userinput">
+            <div>
+                <label for="fullname">Full name (in English)</label>
+            <input type="text" placeholder="Enter your full name" id="fullname" required>
+            </div>
+        
+        <div>
+            <label for="Phonenumber"> Phone number</label>
+            <input type="tel" placeholder="Enter your phone number" id="Phonenumber" min="01000000000" max="01599999999" required>
+        </div>
+        
+        <div>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your Email" id="email" required>
+</div>
+        </div>
+        <div class="userselect">
+           <div>
+            <label for="academicyear">Academic year</label>
+            <select name="academicyear" id="" required>
+                <option value="" disabled selected>Academic year</option>
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+
+            </select>
+           </div>      
+        <div>
+            <label for="department">Department</label>
+            <select name="department" id="" required>
+                <option value="" disabled selected>Department</option>
+                <option value="electrical">Electrical</option>
+                <option value="mechanical">Mechanical</option>
+                <option value="civil">Civil</option>
+                <option value="architecture">Architechture</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="firstpreference">First preference</label>
+            <select name="firstpreference" id="" required>
+                <option value="" disabled selected>First preference</option>
+                <option value="webdevelopment">Web development</option>
+                 <option value="machinelearning">Machine learning</option>
+                 <option value="ai">Ai</option>
+
+
+            </select>
+        </div>
+        <div>
+            <label for="secondpreference">Second preference</label>
+            <select name="secondpreference" id="" required>
+                <option value="" disabled selected>Second preference</option>
+                <option value="webdevelopment">Web development</option>
+                <option value="machinelearning">Machine learning</option>
+                <option value="ai">Ai</option>
+
+            </select>
+        </div>
+        </div>
+        <div class="submitbutton">
+        <input type="submit" value="Register">
+    </div>
+    </form>
+    </div>
+</body>
+</html>
