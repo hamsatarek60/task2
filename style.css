@@ -2,7 +2,7 @@ body {
 background-image: url(main_bg7.jpg);
 background-position: center;
 background-size: cover;
- 
+  height: 100vh ;
 }
 * {
       padding: 0;
@@ -16,8 +16,8 @@ background-color: rgba(0, 0, 0, 0.6);
  width: 700px;
   margin: 0 auto;
   border-radius: 10px;
-  padding: 25 px;
-  height: 100vh ;
+ 
+  
 
 }
 .logo {
@@ -40,7 +40,7 @@ background-color: rgba(0, 0, 0, 0.6);
 .userinput label {
      color:white;
      margin: 8px;
-     padding: 10px;
+     
 }
 
 .userinput input {
@@ -52,12 +52,12 @@ background-color: rgba(0, 0, 0, 0.6);
 .userselect label {
      color:white;
      margin: 8px;
-     padding: 10px;
+    
 }
 
 .userselect select {
  width: 100%;
-  padding: 7px;
+  padding: 10px;
   border-radius: 10px;
   margin : 8px;
 }
